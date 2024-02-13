@@ -1,0 +1,41 @@
+
+
+
+
+.d-flex{
+  margin-top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+
+   
+}
+
+   .card {
+         background-color: rgb(44, 44, 44); 
+        color: white;
+        border: 1px solid rgb(29, 33, 37);
+        padding: 20px;
+        margin: 10px;
+        width: 350px;
+        height: 350px;
+        text-align: center;
+        text-shadow: 10px 20px 25px black;
+        border: 1px solid black;
+    }
+    
+
+body{background-image: url(image/R.jpg); width: 100%;background-size: cover; }
+  /* background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; margin: 0;
+  display: block;
+  place-items: center;
+  padding-left:31%;
+  margin-top:20px;} */ 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="sform.css">
+    <script src="sform.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="form1 container "  id="contain">
+        <h3 class="text-warning text-center pb-3" >STUDENT FORM!</h3>
+       
+            <div class="color form-floating mb-3">
+              <label for="name">NAME</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter the name" required>
+                <p id="name1" class="text-danger"></p>
+              
+              </div>
+              <div class="color form-floating mb-3">
+                <label for="email">EMAIL</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder=" email" required>             
+                <p id="name2" class="text-danger"></p>
+              
+              </div>
+              <div class="color form-floating mb-3">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="Phonenumber " required>
+                
+                <p id="name3" class="text-danger"></p>
+              
+              </div>
+              <div class="color form-floating mb-3">
+                <label for="password">PASSWORD</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="password" required>
+                
+                <p id="name4" class="text-danger"></p>
+              
+              </div>
+              <div class="color form-floating mb-3">
+                <label for="c_password">CONFIRM PASSWORD</label>
+                <input type="password" class="form-control" id="c_password" name="c_password" placeholder="c-password" required>
+                <p id="name5" class="text-danger"></p>
+              
+              </div>
+              <div >
+                <label>Gender:</label><br>
+                <input type="checkbox" name="gender" onchange="male()" id="male" value="male" style="height:20px; width:20px;">
+                <label for="male" >Male</label>
+                <input type="checkbox" name="gender" onchange="female()" id="female" value="female" style="height:20px; width:20px;">
+                <label for="female">Female</label>
+                <p id="gender_err" class="text-danger"></p>
+             </div>
+              <div class="color form-floating mb-3">
+                <label for="language">LANGUAGE</label> <br>
+                <select class="form-select" id="language" aria-label="Floating label select example">
+                    <option>Select</option>
+                    <option>Tamil</option>
+                    <option>English</option>
+                  </select>
+               
+                <p id="name7" class="text-danger"></p>
+              
+              </div>
+              <div class="color form-floating mb-3">
+                <label for="date">DATE OF BIRTH</label>
+                <input type="date" class="form-control" id="date" name="date" placeholder="" required>          
+                <p id="name8" class="text-danger"></p>
+              
+              </div>
+              
+              <div class=" text-center">
+                <button type="submit" onclick="submit()" class="bg-primary rounded-5 btn py-2 px-3 text-white">SUBMIT</button></span> 
+                <span><button type="submit" onclick="cancel()" class="bg-danger rounded-5 btn py-2 px-3 text-white">CANCEL</button></span> 
+  
+              </div>
+      </div>
+</body>
+</html>

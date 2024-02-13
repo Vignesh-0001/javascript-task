@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="t-table.css">
+    <script src="t-table.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text text-center " style="padding-left: 35%; color: black;">TEACHERTABLE</h1>
+    <button  type="button" class="btn btn-primary" onclick="techback()" class=" button  btn bg-primary rounded-3 btn py-2 px-3 text-white"> Back</button>
+    <button  type="button"class="btn btn-primary" onclick="techform()" class="button  btn bg-success rounded-3 btn py-2 px-3 text-white"> Go to Teacher Form</button>
+
+    <div class="bg">
+        <table  class="table table-white">
+            <thead>
+                <tr class="table table-primary">
+                    <th class="text-center">NAME</th>
+                    <th class="text-center">EMAIL</th>
+                    <th class="text-center">PHONE NUMBER</th>
+                    <th class="text-center">PASSWORD</th>
+                    <th class="text-center">CONFIRM PASSWORD</th>
+                    <th class="text-center">GENDER</th>
+                    <th class="text-center">LANGUAGE</th>
+                    <th class="text-center">DATE OF BIRTH</th>
+                    <th class="text-center">ACTION</th>
+                </tr>
+            </thead>
+            <tbody  id="dataTbl">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

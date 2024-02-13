@@ -1,0 +1,49 @@
+body{
+    background-image: url(image/download.jpg);
+}body{
+    background-image:url("image/net.jpg");height: 500px;position: relative;background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; margin: 0;
+    display: block;
+    place-items: center;
+     padding-left:100px;
+    margin-top: 10px; 
+
+
+    
+}
+.button{height: 20px;width: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+font-weight: 400;
+
+
+}
+table{
+   padding-top:15px;
+     position: absolute;
+    border-radius: 5px;
+    /* box-shadow: 10px 20px 25px ; */
+    color: black;
+    overflow: hidden;
+    max-width: 100%;
+    width:90%;
+    height: 30px;padding-left:20px;
+    border: 2px solid black;
+    table-layout: fixed;
+
+
+}
+
+
+
+
+
+/* .container{ 
+   
+
+    
+} */

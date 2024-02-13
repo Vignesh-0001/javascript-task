@@ -1,0 +1,217 @@
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+    
+     }
+
+
+
+
+
+     body{
+        background-image: url(image/download.jpg);
+    }
+/*     
+    .select{ width: 400px;padding-right: 20px; height: 40px;}
+    .language{padding-right: 20px;} 
+    .gender{padding-right: 45px;} 
+
+    .gen{display: flex;align-items:center;} 
+         #tamil{height: 15px;width:15px; } 
+        #english{height: 15px;width: 15px;} 
+    
+         #male{height: 15px;width: 15px;margin-left: 40px; }  
+        #female{height: 15px;width:15px; margin-left: 50px;}   */
+    
+
+        /* .form1{
+            width: 500px;
+            background-color:   rgba(0, 0, 0, 0.2);
+            margin: 250px auto;
+            padding:50px;
+        }
+        body {
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+         */
+
+
+         body{
+            background-image:url("image/OIP\ \(1\).jpg");
+            position: relative;
+            background-size: cover;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; margin: 0;
+            display: block;
+            place-items: center;
+            padding-left:31%;
+            margin-top:20px;
+            
+        }
+        
+
+
+        
+        
+        .container{ 
+        
+            position: absolute;
+            border-radius: 5px;
+            box-shadow: 10px 20px 25px ;
+            overflow: hidden;
+            max-width: 100%; 
+            width: 530px;
+            height: 600px;
+            padding-left: 20px;
+            border: 2px solid grey; }
+    
+            
+        
+      #contain{ overflow-y: scroll; overflow-x:hidden; }
+                  /* background-image:linear-graditent (to bottom,rgb(86, 89, 90),lightgray,rgb(24, 19, 19);  */
+                 /* background-image: linear-gradient(to bottom,rgb(8, 69, 104),lightgray,rgb(24, 19, 19) );  */
+        
+        
+        
+        
+        
+        
+        
+        #name{
+            padding-left: 30px;
+            
+        }
+       
+        
+        #age{
+            padding-left: 30px;
+            
+        }
+         #gender{
+            padding-left: 30px; 
+        } 
+            #email{
+            padding-left: 30px;
+            
+        }
+        #phone{
+            padding-left: 30px;
+    
+        }
+    #language
+        {
+            padding-left: 30px;
+    
+        }
+        #date{
+            padding-left: 30px;
+    
+        }
+        #password{
+            padding-left: 30px;
+    
+        }
+         #c_password{
+            padding-left: 30px;
+    
+        }
+    
+        
+        
+        
+        
+    /*     
+        .container h1{ 
+            margin:0;
+            text-align:center;
+            padding:-5px;
+            text-shadow:5px 5px rgb(3, 3, 3) ;
+            color: white; */
+        
+        body{
+            margin-bottom: 10px;
+            padding-bottom:20px; 
+            position: relative;
+        }
+         
+         label{
+            
+            display: inline-block;
+            font-size:18px;
+            font-weight:800;
+          color: black;
+        
+        }
+        
+       
+        
+       
+    
+        
+        
+         
+         input{ 
+             color: black;
+            border-radius:3px;
+            display: block;
+            font-size: 14px;
+            width:400px;height:40px;
+        
+    
+        
+        }
+         
+        
+       
+        
+        
+        button {
+                background-color:black;
+                 color:white ;
+                border:none;
+                display:block;
+                font-size:20px;height: 50px;
+                width:400px;
+                padding: 10px ;
+                border-radius:35px;
+                border: 2px solid grey;
+                font-weight: 800;
+                margin-left: 50px;
+            
+             
+            
+            }
+            #but{
+        width:80px;height:30px;
+        display:flex;
+        
+        
+        
+            }
+            #name1{color: red;font-weight: 600;}
+    #name2{color: red;font-weight: 600;}
+    #name3{color: red;font-weight: 600;}
+    #name4{color: red;font-weight: 600;}
+    #name5{color: red;font-weight: 600;}
+    #gender_err{color: red;font-weight: 600;}
+    #name7{color: red;font-weight: 600;}
+    #name8{color: red;font-weight: 600;}
+        
+           
